@@ -1,19 +1,16 @@
 {
-  "name": "proj-fifa",
+  "name": "my-static-site",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Um site estático simples",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "build": "echo 'No build needed'",
+    "start": "http-server ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Diogo",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.2",
-    "mysql2": "^3.12.0",
-    "pg": "^8.13.3"
-  },
-  "description": ""
+    "http-server": "^0.12.3"
+  }
 }
